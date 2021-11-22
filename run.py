@@ -21,7 +21,11 @@ def start_game(word):
         guess = input("Guess as letter:\n").upper()
         if len(guess) == 1 and guess.isalpha():
             if guess in guessed_letters:
-                print("You have already tried the letter", guess)
+                print(f"You have already tried the letter {guess}!")
+            elif guess not in word:
+                print(f"Oh no! The letter {guess} isn't in the word!")
+                chances -= 1
+                guessed_letters.append(guess)
                 
 
 
