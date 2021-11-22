@@ -14,4 +14,9 @@ def start_game(word):
     endgame = False
     guessed_letters = []
     chances = 6
+    print("Let's play Hangman!")
+    print(f"Chances left: {chances}")
+    print(secret_word)
+    print("\n")
 
+start_game(word)
