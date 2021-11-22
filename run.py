@@ -11,4 +11,7 @@ def start_game(word):
     Starts the game.
     """
     secret_word = "_" * len(word)
-    
+    endgame = False
+    guessed_letters = []
+    chances = 6
+
