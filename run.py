@@ -17,6 +17,12 @@ def start_game(word):
     print("Let's play Hangman!\n")
     print(f"Chances left: {chances}\n")
     print("Guess this word: " + " ".join(secret_word) + "\n")
+    while not endgame and chances > 0:
+        guess = input("Guess as letter:\n").upper()
+        if len(guess) == 1 and guess.isalpha():
+            if guess in guessed_letters:
+                print("You have already tried the letter", guess)
+                
 
 
 start_game(word)
