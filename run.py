@@ -9,7 +9,7 @@ word = random.choice(words)[:-1].upper()
 def title_screen():
     """
     Introduces the player to the game.
-    Gives him the option to start right away or read the instructions first.
+    Gives them the option to start right away or read the instructions first.
     """
 
 
