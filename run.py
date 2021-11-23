@@ -1,16 +1,15 @@
 import random
 
-with open('words.txt', 'r') as h:
-    words = h.readlines()
-
-word = random.choice(words)[:-1].upper()
-
 
 def new_word():
     """
     Randomly selects a word from words.txt file
-    so that every new round has a new word.
+    so that every new round has a new word to be guessed.
     """
+    with open('words.txt', 'r') as h:
+        words = h.readlines()
+    word = random.choice(words)[:-1].upper()
+    return word
 
 
 def title_screen():
@@ -18,6 +17,7 @@ def title_screen():
     Introduces the player to the game.
     Gives them the option to start right away or read the instructions first.
     """
+    word = new_word()
     print("Type 1 to begin the game\n")
     print("Type 2 to read the instructions")
     selection = False
@@ -110,6 +110,7 @@ def restart_game():
     """
     restart_choice = input("\nWant to go another round? Y/N\n").upper()
     if restart_choice == "Y":
+        word = new_word()
         start_game(word)
     elif restart_choice == "N":
         title_screen()
