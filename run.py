@@ -91,7 +91,8 @@ def start_game(word):
                 chances -= 1
                 guessed_letters.append(guess)
             else:
-                print(f"\nNice! {guess} is in the word!\n")
+                print(f"\n{Color.GREEN}Nice! {Color.RESET}{guess}"
+                      f" {Color.GREEN}is in the word!\n{Color.RESET}")
                 guessed_letters.append(guess)
                 word_as_list = list(secret_word)
                 indices = [i for i, letter in enumerate(word)
@@ -102,19 +103,24 @@ def start_game(word):
                 if "_" not in secret_word:
                     endgame = True
         elif len(guess) != 1:
-            print("\nUh oh, you have to guess 1 letter at a time.")
-            print(f"You used {len(guess)} characters.\n")
+            print(f"\n{Color.YELLOW}Uh oh, "
+                  f"you have to guess {Color.RESET}1"
+                  f" {Color.YELLOW}letter at a time.")
+            print(f"You used {Color.RESET}{len(guess)} "
+                  f"{Color.YELLOW}characters.\n{Color.RESET}")
         else:
-            print("\nWhat are you doing? You can only guess letters!")
-            print(f"{guess} is not a letter!\n")
+            print(f"\n{Color.YELLOW}What are you doing? "
+                  f"You can only guess letters!{Color.RESET}")
+            print(f"{guess} {Color.YELLOW}is not a letter!\n{Color.RESET}")
         print(hangman_graphics(chances))
         print(f"Chances left: {chances}\n")
         print("Guess this word: " + " ".join(secret_word) + "\n")
         print("Letters tried: " + ", ".join(guessed_letters) + "\n")
     if endgame:
         win_graphic()
-        print("Great job! You guessed the word and saved the poor man!")
-        print("My hero!")
+        print(f"{Color.GREEN}Great job! "
+              "You guessed the word and saved the poor man!")
+        print(f"My hero!{Color.RESET}")
     else:
         lose_graphic()
         print("Aw, I feel sorry for that guy, but at least you tried.")
