@@ -157,7 +157,7 @@ def hangman_graphics(chances):
         f"""
               =======
               |/    |
-              |    {Color.RED} @{Color.RESET}
+              |     {Color.RED}@{Color.RESET}
               |    /|\\
               |     |
               |    / \\
@@ -167,10 +167,10 @@ def hangman_graphics(chances):
                       | /
         ______________ /
         """,
-        """
+        f"""
               =======
               |/    |
-              |     @
+              |     {Color.RED}@{Color.RESET}
               |    /|\\
               |     |
               |    /
@@ -180,10 +180,10 @@ def hangman_graphics(chances):
                       | /
         ______________ /
         """,
-        """
+        f"""
               =======
               |/    |
-              |     @
+              |     {Color.RED}@{Color.RESET}
               |    /|\\
               |     |
               |
@@ -193,10 +193,10 @@ def hangman_graphics(chances):
                       | /
         ______________ /
         """,
-        """
+        f"""
               =======
               |/    |
-              |     @
+              |     {Color.RED}@{Color.RESET}
               |    /|
               |     |
               |
@@ -206,10 +206,10 @@ def hangman_graphics(chances):
                       | /
         ______________ /
         """,
-        """
+        f"""
               =======
               |/    |
-              |     @
+              |     {Color.RED}@{Color.RESET}
               |     |
               |     |
               |
@@ -219,10 +219,10 @@ def hangman_graphics(chances):
                       | /
         ______________ /
         """,
-        """
+        f"""
               =======
               |/    |
-              |     @
+              |     {Color.RED}@{Color.RESET}
               |
               |
               |
