@@ -272,4 +272,4 @@ def lose_graphic():
     )
 
 
-win_graphic()
+title_screen()
