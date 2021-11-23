@@ -45,6 +45,8 @@ def start_game(word):
             print(f"{guess} is not a letter!\n")
         print(f"Chances left: {chances}\n")
         print("Guess this word: " + " ".join(secret_word) + "\n")
+    if endgame:
+        print("Great job! You guessed the word and saved the poor man! My hero! \U0001F60D")
 
 
 start_game(word)
