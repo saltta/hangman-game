@@ -21,13 +21,13 @@ def start_game(word):
         guess = input("Guess a letter:\n").upper()
         if len(guess) == 1 and guess.isalpha():
             if guess in guessed_letters:
-                print(f"You have already tried {guess}!\n")
+                print(f"\nYou have already tried {guess}!\n")
             elif guess not in word:
-                print(f"Oh no! {guess} isn't in the word!\n")
+                print(f"\nOh no! {guess} isn't in the word!\n")
                 chances -= 1
                 guessed_letters.append(guess)
             else:
-                print(f"Nice! {guess} is in the word!\n")
+                print(f"\nNice! {guess} is in the word!\n")
                 guessed_letters.append(guess)
                 word_as_list = list(secret_word)
                 indices = [i for i, letter in enumerate(word)
@@ -38,8 +38,9 @@ def start_game(word):
                 if "_" not in secret_word:
                     endgame = True
         elif len(guess) != 1:
-            print("Uh oh, you have to guess 1 letter at a time.")
+            print("\nUh oh, you have to guess 1 letter at a time.")
             print(f"You used {len(guess)} characters.\n")
+        
 
 
 start_game(word)
