@@ -19,11 +19,9 @@ def title_screen():
         if choice == 1:
             selection = True
         elif choice == 2:
-            selection == True
+            selection = True
         else:
             print("Please type 1 or 2 to make your choice.")
-
-
 
 
 def start_game(word):
