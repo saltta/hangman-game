@@ -143,7 +143,9 @@ def restart_game():
     elif restart_choice == "N":
         title_screen()
     else:
-        print(f"You have to choose Y or N. You chose {restart_choice}.\n")
+        print(f"{Color.YELLOW}You have to choose {Color.BLUE}Y {Color.YELLOW}"
+              f"or {Color.BLUE}N{Color.YELLOW}. You chose "
+              f"{Color.RESET}{restart_choice}{Color.YELLOW}.{Color.RESET}\n")
         restart_game()
 
 
@@ -152,10 +154,10 @@ def hangman_graphics(chances):
     Visual representation for how many chances the player has left.
     """
     hanging_steps = [
-        """
+        f"""
               =======
               |/    |
-              |     @
+              |    {Color.RED} @{Color.RESET}
               |    /|\\
               |     |
               |    / \\
