@@ -48,9 +48,8 @@ def instructions():
         Good luck!
         """
     )
-    start = input("Press the enter key to start the game.\n")
-    word = new_word()
-    start_game(word)
+    start = input("Press the enter key to return to the title screen.\n")
+    title_screen()
 
 
 def start_game(word):
