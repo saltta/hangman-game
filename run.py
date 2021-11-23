@@ -123,8 +123,9 @@ def start_game(word):
         print(f"My hero!{Color.RESET}")
     else:
         lose_graphic()
-        print("Aw, I feel sorry for that guy, but at least you tried.")
-        print(f"The word was: {word}.")
+        print(f"{Color.RED}Aw, I feel sorry for that guy, "
+              "but at least you tried.")
+        print(f"The word was: {Color.RESET}{word}{Color.RED}.{Color.RESET}")
     restart_game()
 
 
@@ -133,7 +134,9 @@ def restart_game():
     Asks if the player wants to restart the game.
     If not, returns to title screen.
     """
-    restart_choice = input("\nWant to go another round? Y/N\n").upper()
+    restart_choice = input(f"\nWant to go another round? "
+                           f"{Color.BLUE}Y{Color.RESET}/{Color.BLUE}N\n"
+                           f"{Color.RESET}").upper()
     if restart_choice == "Y":
         word = new_word()
         start_game(word)
