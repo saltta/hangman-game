@@ -47,7 +47,7 @@ def start_game(word):
         print("Guess this word: " + " ".join(secret_word) + "\n")
     if endgame:
         print("Great job! You guessed the word and saved the poor man!")
-        print("My hero! \U0001F60D\n")
+        print("My hero! \U0001F60D")
 
 
 start_game(word)
