@@ -277,7 +277,6 @@ rat
 spiteful
 groovy
 equal
-picayune
 physical
 detailed
 decorate
