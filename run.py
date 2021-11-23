@@ -24,6 +24,12 @@ def title_screen():
             print("Please type 1 or 2 to make your choice.")
 
 
+def instructions():
+    """
+    Displays instructions for playing the game.
+    """
+
+
 def start_game(word):
     """
     Starts the game.
