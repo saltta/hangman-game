@@ -44,8 +44,10 @@ def title_screen():
             selection = True
             instructions()
         else:
-            print("\nPlease type" + Color.BLUE + " 1 " + Color.RESET + "or" +
-                  Color.BLUE + " 2 " + Color.RESET + "to make your choice.")
+            print(Color.YELLOW + "\nPlease type" + Color.BLUE + " 1 " +
+                  Color.YELLOW + "or" +
+                  Color.BLUE + " 2 " + Color.YELLOW + "to make your choice." +
+                  Color.RESET)
 
 
 def instructions():
