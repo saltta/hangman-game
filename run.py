@@ -40,7 +40,7 @@ def start_game(word):
         elif len(guess) != 1:
             print("\nUh oh, you have to guess 1 letter at a time.")
             print(f"You used {len(guess)} characters.\n")
-        elif not guess.isalpha():
+        else:
             print("\nWhat are you doing? You can only guess letters!")
             print(f"{guess} is not a letter!\n")
 
