@@ -18,6 +18,7 @@ def title_screen():
     Gives them the option to start right away or read the instructions first.
     """
     word = new_word()
+    title_graphic()
     print("Type 1 to begin the game\n")
     print("Type 2 to read the instructions")
     selection = False
@@ -217,6 +218,26 @@ def hangman_graphics(chances):
         """
     ]
     return hanging_steps[chances]
+
+
+def title_graphic():
+    """
+    A title graphic to be displayed on the title screen.
+    """
+    print(
+        """
+          ██░ ██  ▄▄▄      ███▄    █  ▄████  ███▄ ▄███▓ ▄▄▄      ███▄    █
+        ▒▓██░ ██ ▒████▄    ██ ▀█   █  ██▒ ▀█▓██▒▀█▀ ██▒▒████▄    ██ ▀█   █
+        ░▒██▀▀██ ▒██  ▀█▄ ▓██  ▀█ ██▒▒██░▄▄▄▓██    ▓██░▒██  ▀█▄ ▓██  ▀█ ██▒
+         ░▓█ ░██ ░██▄▄▄▄██▓██▒  ▐▌██▒░▓█  ██▒██    ▒██ ░██▄▄▄▄██▓██▒  ▐▌██▒
+        ░▓█▒░██▓▒▓█   ▓██▒██░   ▓██░▒▓███▀▒▒██▒   ░██▒▒▓█   ▓██▒██░   ▓██░
+         ▒ ░░▒░▒░▒▒   ▓▒█░ ▒░   ▒ ▒ ░▒   ▒ ░ ▒░   ░  ░░▒▒   ▓▒█░ ▒░   ▒ ▒
+         ▒ ░▒░ ░░ ░   ▒▒ ░ ░░   ░ ▒░ ░   ░ ░  ░      ░░ ░   ▒▒ ░ ░░   ░ ▒░
+        ░  ░░ ░  ░   ▒     ░   ░ ░  ░   ░ ░      ░     ░   ▒     ░   ░ ░
+        ░  ░  ░      ░           ░      ░        ░         ░           ░
+
+        """
+    )
 
 
 title_screen()
