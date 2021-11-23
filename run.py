@@ -46,7 +46,8 @@ def start_game(word):
         print(f"Chances left: {chances}\n")
         print("Guess this word: " + " ".join(secret_word) + "\n")
     if endgame:
-        print("Great job! You guessed the word and saved the poor man! My hero! \U0001F60D")
+        print("Great job! You guessed the word and saved the poor man!")
+        print("My hero! \U0001F60D\n")
 
 
 start_game(word)
