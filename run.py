@@ -6,6 +6,13 @@ with open('words.txt', 'r') as h:
 word = random.choice(words)[:-1].upper()
 
 
+def new_word():
+    """
+    Randomly selects a word from words.txt file
+    so that every new round has a new word.
+    """
+
+
 def title_screen():
     """
     Introduces the player to the game.
