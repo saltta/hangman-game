@@ -101,13 +101,14 @@ def restart_game():
     Asks if the player wants to restart the game.
     If not, returns to title screen.
     """
-    restart_choice = input("Want to go another round? Y/N\n").upper()
+    restart_choice = input("\nWant to go another round? Y/N\n\n").upper()
     if restart_choice == "Y":
         start_game(word)
     elif restart_choice == "N":
         title_screen()
     else:
         print(f"You have to choose Y or N. You chose {restart_choice}.\n")
+        restart_game()
 
 
 
