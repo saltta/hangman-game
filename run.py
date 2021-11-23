@@ -15,11 +15,13 @@ def title_screen():
     print("Type 2 to read the instructions")
     selection = False
     while not selection:
-        choice = input("\n")
-        if choice == 1:
+        choice = input(" \n")
+        if choice == "1":
             selection = True
-        elif choice == 2:
+            start_game(word)
+        elif choice == "2":
             selection = True
+            instructions()
         else:
             print("Please type 1 or 2 to make your choice.")
 
@@ -39,6 +41,8 @@ def instructions():
         Good luck!
         """
     )
+    start = input("Press the enter key to start the game.\n")
+    start_game(word)
 
 
 def start_game(word):
@@ -190,4 +194,4 @@ def hangman_graphics(chances):
     return hanging_steps[chances]
 
 
-start_game(word)
+title_screen()
