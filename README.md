@@ -39,3 +39,5 @@ https://www.youtube.com/watch?v=5x6iAKdJB6U select random word from .txt
 https://www.youtube.com/watch?v=m4nEnsavl6w hangman tutorial
 
 adding title screen and more ascii art for styling
+
+https://texteditor.com/multiline-text-art/ ascii title 
