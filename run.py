@@ -8,8 +8,8 @@ def new_word():
     """
     with open('words.txt', 'r') as h:
         words = h.readlines()
-    word = random.choice(words)[:-1].upper()
-    return word
+    random_word = random.choice(words)[:-1].upper()
+    return random_word
 
 
 def title_screen():
