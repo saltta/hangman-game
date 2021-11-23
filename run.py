@@ -93,6 +93,7 @@ def start_game(word):
     else:
         print("Aw, I feel sorry for that guy, but at least you tried.")
         print(f"The word was: {word}.")
+    restart_game()
 
 
 def restart_game():
@@ -100,7 +101,14 @@ def restart_game():
     Asks if the player wants to restart the game.
     If not, returns to title screen.
     """
-    
+    restart_choice = input("Want to go another round? Y/N\n").upper()
+    if restart_choice == "Y":
+        start_game(word)
+    elif restart_choice == "N":
+        title_screen()
+    else:
+        print(f"You have to choose Y or N. You chose {restart_choice}.\n")
+
 
 
 def hangman_graphics(chances):
