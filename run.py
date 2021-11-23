@@ -6,7 +6,6 @@ class Color:
     Sets colors to be called for different texts.
     """
     RESET = '\033[0m'
-    BOLD = '\033[1m'
     BLUE = '\u001b[34m'
     GREEN = '\033[92m'
     RED = '\033[91m'
