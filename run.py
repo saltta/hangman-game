@@ -9,6 +9,7 @@ class Color:
     BLUE = '\u001b[34m'
     GREEN = '\033[92m'
     RED = '\033[91m'
+    YELLOW = '\u001b[33m'
 
 
 def new_word():
