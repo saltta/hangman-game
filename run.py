@@ -236,4 +236,10 @@ def title_graphic():
     )
 
 
+def win_graphic():
+    """
+    Displays a win graphic for when the player correctly guesses the word.
+    """
+
+
 title_screen()
