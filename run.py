@@ -83,11 +83,11 @@ def start_game(word):
         guess = input("Try a letter:\n").upper()
         if len(guess) == 1 and guess.isalpha():
             if guess in guessed_letters:
-                print(Color.YELLOW + f"\nYou have already tried {guess}!\n" +
-                      Color.RESET)
+                print(f"\n{Color.YELLOW}You have already tried"
+                      f" {Color.RESET}{guess}{Color.YELLOW}!{Color.RESET}")
             elif guess not in word:
-                print(Color.YELLOW + f"\nOh no! {guess} isn't in the word!\n" +
-                      Color.RESET)
+                print(f"\n{Color.YELLOW}Oh no! {Color.RESET}{guess}"
+                      f"{Color.YELLOW} isn't in the word!\n{Color.RESET}")
                 chances -= 1
                 guessed_letters.append(guess)
             else:
