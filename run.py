@@ -97,6 +97,7 @@ def start_game(word):
         print("Guess this word: " + " ".join(secret_word) + "\n")
         print("Letters tried: " + ", ".join(guessed_letters) + "\n")
     if endgame:
+        print(win_graphic())
         print("Great job! You guessed the word and saved the poor man!")
         print("My hero!")
     else:
@@ -240,6 +241,14 @@ def win_graphic():
     """
     Displays a win graphic for when the player correctly guesses the word.
     """
+    print(
+        """
+         _ _ _  _  _  _  _  _  ___  ___
+        | | | || || \\| || \\| || __|| o \\
+        | V V || || \\\\ || \\\\ || _| |   /
+         \\_n_/ |_||_|\\_||_|\\_||___||_|\\\\
+        """
+    )
 
 
 title_screen()
