@@ -56,6 +56,7 @@ def start_game(word):
     print("Save the man from hanging!\n")
     print(f"Chances left: {chances}\n")
     print("Guess this word: " + " ".join(secret_word) + "\n")
+    print(hangman_graphics(chances))
     while not endgame and chances > 0:
         guess = input("Guess a letter:\n").upper()
         if len(guess) == 1 and guess.isalpha():
