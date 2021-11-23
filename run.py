@@ -97,7 +97,7 @@ def start_game(word):
         print("Guess this word: " + " ".join(secret_word) + "\n")
         print("Letters tried: " + ", ".join(guessed_letters) + "\n")
     if endgame:
-        print(win_graphic())
+        win_graphic()
         print("Great job! You guessed the word and saved the poor man!")
         print("My hero!")
     else:
