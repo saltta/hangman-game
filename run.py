@@ -32,8 +32,8 @@ def instructions():
     """
     print(
         """
-        Try to guess the word by typing in individual letters.
-        Every wrong letter attempt will cost you one chance
+        Try to guess the word by typing 1 individual letter at a time.
+        Every wrong letter attempt will cost you 1 chance
         and the hanging of the poor man will begin!
         Once you run out of chances the man will be hanged!
         Save him by guessing the correct letters before your chances reach 0.
