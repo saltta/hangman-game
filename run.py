@@ -6,6 +6,13 @@ with open('words.txt', 'r') as h:
 word = random.choice(words)[:-1].upper()
 
 
+def title_screen():
+    """
+    Introduces the player to the game.
+    Gives him the option to start right away or read the instructions first.
+    """
+
+
 def start_game(word):
     """
     Starts the game.
