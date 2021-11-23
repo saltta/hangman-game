@@ -874,7 +874,6 @@ knock
 spiky
 slow
 cure
-elfin
 month
 wry
 reaction
