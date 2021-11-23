@@ -101,6 +101,7 @@ def start_game(word):
         print("Great job! You guessed the word and saved the poor man!")
         print("My hero!")
     else:
+        lose_graphic()
         print("Aw, I feel sorry for that guy, but at least you tried.")
         print(f"The word was: {word}.")
     restart_game()
@@ -268,4 +269,4 @@ def lose_graphic():
     )
 
 
-title_screen(s)
+title_screen()
