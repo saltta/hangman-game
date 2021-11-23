@@ -53,7 +53,7 @@ def start_game(word):
     endgame = False
     guessed_letters = []
     chances = 6
-    print("Let's play Hangman!\n")
+    print("Save the man from hanging!\n")
     print(f"Chances left: {chances}\n")
     print("Guess this word: " + " ".join(secret_word) + "\n")
     while not endgame and chances > 0:
