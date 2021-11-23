@@ -48,6 +48,9 @@ def start_game(word):
     if endgame:
         print("Great job! You guessed the word and saved the poor man!")
         print("My hero!")
+    else:
+        print("Aw, I feel sorry for that guy, but at least you tried.")
+        print(f"The word was: {word}.")
 
 
 start_game(word)
