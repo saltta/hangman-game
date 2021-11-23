@@ -43,6 +43,7 @@ def start_game(word):
         else:
             print("\nWhat are you doing? You can only guess letters!")
             print(f"{guess} is not a letter!\n")
+        print(hangman_graphics(chances))
         print(f"Chances left: {chances}\n")
         print("Guess this word: " + " ".join(secret_word) + "\n")
         print("Letters tried: " + ", ".join(guessed_letters) + "\n")
