@@ -49,6 +49,7 @@ def instructions():
         """
     )
     start = input("Press the enter key to start the game.\n")
+    word = new_word()
     start_game(word)
 
 
@@ -117,7 +118,6 @@ def restart_game():
     else:
         print(f"You have to choose Y or N. You chose {restart_choice}.\n")
         restart_game()
-
 
 
 def hangman_graphics(chances):
