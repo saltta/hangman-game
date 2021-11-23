@@ -31,9 +31,8 @@ def title_screen():
     word = new_word()
     title_graphic()
     print(hangman_graphics(0))
-    print("Type" + Color.BLUE + " 1 " + Color.RESET + "to begin the game\n")
-    print("Type" + Color.BLUE + " 2 " + Color.RESET +
-          "to read the instructions")
+    print(f"Type {Color.BLUE}1 {Color.RESET}to begin the game\n")
+    print(f"Type {Color.BLUE}2 {Color.RESET} to read the instructions")
     selection = False
     while not selection:
         choice = input(" \n")
@@ -44,10 +43,9 @@ def title_screen():
             selection = True
             instructions()
         else:
-            print(Color.YELLOW + "\nPlease type" + Color.BLUE + " 1 " +
-                  Color.YELLOW + "or" +
-                  Color.BLUE + " 2 " + Color.YELLOW + "to make your choice." +
-                  Color.RESET)
+            print(f"\n{Color.YELLOW}Please type {Color.BLUE}1 {Color.YELLOW}or"
+                  f"{Color.BLUE} 2 {Color.YELLOW}to make your choice."
+                  f"{Color.RESET}")
 
 
 def instructions():
@@ -85,9 +83,11 @@ def start_game(word):
         guess = input("Try a letter:\n").upper()
         if len(guess) == 1 and guess.isalpha():
             if guess in guessed_letters:
-                print(f"\nYou have already tried {guess}!\n")
+                print(Color.YELLOW + f"\nYou have already tried {guess}!\n" +
+                      Color.RESET)
             elif guess not in word:
-                print(f"\nOh no! {guess} isn't in the word!\n")
+                print(Color.YELLOW + f"\nOh no! {guess} isn't in the word!\n" +
+                      Color.RESET)
                 chances -= 1
                 guessed_letters.append(guess)
             else:
