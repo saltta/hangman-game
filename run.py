@@ -54,4 +54,10 @@ def start_game(word):
         print(f"The word was: {word}.")
 
 
+def hangman_graphics(chances):
+    """
+    Visual representation for how many chances the player has left.
+    """    
+
+
 start_game(word)
