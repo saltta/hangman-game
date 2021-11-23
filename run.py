@@ -1,6 +1,17 @@
 import random
 
 
+class Color:
+    """
+    Sets colors to be called for different texts.
+    """
+    RESET = '\033[0m'
+    BOLD = '\033[1m'
+    BLUE = '\u001b[34m'
+    GREEN = '\033[92m'
+    RED = '\033[91m'
+
+
 def new_word():
     """
     Randomly selects a word from words.txt file
@@ -20,8 +31,9 @@ def title_screen():
     word = new_word()
     title_graphic()
     print(hangman_graphics(0))
-    print("Type 1 to begin the game\n")
-    print("Type 2 to read the instructions")
+    print("Type" + Color.BLUE + " 1 " + Color.RESET + "to begin the game\n")
+    print("Type" + Color.BLUE + " 2 " + Color.RESET +
+          "to read the instructions")
     selection = False
     while not selection:
         choice = input(" \n")
@@ -242,17 +254,17 @@ def win_graphic():
     """
     Displays a win graphic for when the player correctly guesses the word.
     """
-    print(
-        """
-         ___       __   ___  ________
-        |\\  \\     |\\  \\|\\  \\|\\   ___  \\
-        \\ \\  \\    \\ \\  \\ \\  \\ \\  \\\\ \\  \\
-         \\ \\  \\  __\\ \\  \\ \\  \\ \\  \\\\ \\  \\
-          \\ \\  \\|\\__\\_\\  \\ \\  \\ \\  \\\\ \\  \\
-           \\ \\____________\\ \\__\\ \\__\\\\ \\__\\
-            \\|____________|\\|__|\\|__| \\|__|
-        """
-    )
+    print(Color.GREEN +
+          """
+           ___       __   ___  ________
+          |\\  \\     |\\  \\|\\  \\|\\   ___  \\
+          \\ \\  \\    \\ \\  \\ \\  \\ \\  \\\\ \\  \\
+           \\ \\  \\  __\\ \\  \\ \\  \\ \\  \\\\ \\  \\
+            \\ \\  \\|\\__\\_\\  \\ \\  \\ \\  \\\\ \\  \\
+             \\ \\____________\\ \\__\\ \\__\\\\ \\__\\
+              \\|____________|\\|__|\\|__| \\|__|
+        """ + Color.RESET
+          )
 
 
 def lose_graphic():
