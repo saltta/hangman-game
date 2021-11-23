@@ -11,6 +11,19 @@ def title_screen():
     Introduces the player to the game.
     Gives them the option to start right away or read the instructions first.
     """
+    print("Type 1 to begin the game")
+    print("Type 2 to read the instructions")
+    selection = False
+    while not selection:
+        choice = input("\n")
+        if choice == 1:
+            selection = True
+        elif choice == 2:
+            selection == True
+        else:
+            print("Please type 1 or 2 to make your choice.")
+
+
 
 
 def start_game(word):
