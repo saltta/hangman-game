@@ -95,6 +95,14 @@ def start_game(word):
         print(f"The word was: {word}.")
 
 
+def restart_game():
+    """
+    Asks if the player wants to restart the game.
+    If not, returns to title screen.
+    """
+    
+
+
 def hangman_graphics(chances):
     """
     Visual representation for how many chances the player has left.
