@@ -58,7 +58,7 @@ def start_game(word):
     print("Guess this word: " + " ".join(secret_word) + "\n")
     print(hangman_graphics(chances))
     while not endgame and chances > 0:
-        guess = input("Guess a letter:\n").upper()
+        guess = input("Try a letter:\n").upper()
         if len(guess) == 1 and guess.isalpha():
             if guess in guessed_letters:
                 print(f"\nYou have already tried {guess}!\n")
