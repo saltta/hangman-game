@@ -19,6 +19,7 @@ def title_screen():
     """
     word = new_word()
     title_graphic()
+    print(hangman_graphics(0))
     print("Type 1 to begin the game\n")
     print("Type 2 to read the instructions")
     selection = False
