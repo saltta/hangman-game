@@ -14,7 +14,7 @@ class Color:
 
 def new_word():
     """
-    Randomly selects a word from words.txt file
+    Randomly selects a word from words.txt file,
     so that every new round has a new word to be guessed.
     """
     with open('words.txt', 'r') as h:
