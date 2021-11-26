@@ -299,4 +299,3 @@ def lose_graphic():
 
 
 title_screen()
- 
