@@ -1,4 +1,4 @@
-# Don't Hangme
+# Don't Hangme - Hangman Game
 
 ## Introduction
 
