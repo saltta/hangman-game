@@ -193,3 +193,19 @@ This is how the coded ASCII Art for the win message needs to look like in order 
     * Manually you have control over when the app should be deployed, but you have to remember to do it.
 1. It might take a little while, but once the app is built Heroku will have a link to the live web page.
        
+## Credits And References
+
+[Random Lists](https://www.randomlists.com/random-words) - Where I generated my long list for the words.txt file. 
+
+[NeuralNine](https://www.youtube.com/watch?v=5x6iAKdJB6U) - During this tutorial he explains how to get a random word from a .txt file.
+
+[Kite](https://www.youtube.com/watch?v=m4nEnsavl6w ) - Good tutorial on hangman game for Python, where I learned the code to reveal individual letters from the hidden word.
+
+[Text Editor](https://texteditor.com/multiline-text-art/) - Where I found the ASCII Art for the title .
+
+[TextKool](https://textkool.com/en) - Where I found the art for the win and lose messages.
+
+[Stack Overflow](https://stackoverflow.com/questions/287871/how-to-print-colored-text-to-the-terminal) - This helped me figure out how to add color to text in the terminal using Python.
+
+[Li Haoyi](https://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html) - Here I saw the codes for the colors I used.
+
