@@ -1,3 +1,11 @@
+# Don't Hangme
+
+## Introduction
+
+Don't Hangme is based on the classic Hangman game. In this version, the program randomly selects a word from a list of almost one thousand words for the player to try and figure out. You don't need an opponent to challenge you, this is a single player game, but you can team up with other people to try and guess the answer. The idea is to have a game that is quick, challenging and can be played over and over again. It was made using Python to be played in a terminal. The game is deployed via Heroku and through Code Institute's template, a mock terminal is generated on a web page making it playable in a browser. 
+
+The game can be found <a href="https://dont-hangme.herokuapp.com/" target="_blank">HERE</a> 
+
 
 
 https://www.randomlists.com/random-words generated list of words 
