@@ -99,7 +99,13 @@ If the user inputs anything other than a single letter while playing the game, t
 
 In order to keep track of which letters have been tried, the used ones will be displayed to avoid reuse, the user won't lose any chances if they mistakenly try the same letter again and they will also get a message telling them that they have already used it.
 
+#### Game Over Messages
 
+![Win Message](assets/images/win.png)
+
+![Lose Message](assets/images/lose.png)
+
+One of these messages will be displayed at the end of the game depending on the result. If the word is guessed correctly, the win message. If they run out of chances, the fail message. Along with the ASCII Art style banner, they will also get a message congratulating or consoling them as well as a prompt to try again, if chosen No, they will be taken back to the title screen.
 
 
 
