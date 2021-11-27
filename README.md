@@ -8,6 +8,23 @@ The game can be found <a href="https://dont-hangme.herokuapp.com/" target="_blan
 
 ![Screenshot of Title Screen](assets/images/titlescreen.png)
 
+## UX
+
+### Strategy
+
+#### Target Audience
+* All ages
+* All levels
+* English speakers
+* English students
+
+#### User Stories
+* I want to know how to play the game
+* I want to see my progress
+* I want to be able to replay many times consecutively
+
+#### 
+
 
 
 
