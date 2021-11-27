@@ -127,6 +127,16 @@ PEP8 results:
 
 ![PEP8 Python Code No Errors](assets/images/pep8.png)
 
+### Bugs
+
+GitHub automatically removes the empty line at the end of the Python file. It is present in my Gitpod workspace but gets removed when pushed to the repository.
+
+When doing the ASCII Art, sometimes it would be printed out misaligned. That was due to the use of backslashes to make the art.
+
+This is how the coded ASCII Art for the win message needs to look like in order to come out correctly:
+
+![ASCII Win Code](assets/images/wincode.png)
+
 
 
 
