@@ -61,7 +61,21 @@ The hangman:
 
 ![Hangman ASCII Art](assets/images/hangman.png)
 
+## Features 
 
+Taking into consideration everything from the UX section of the project, I decided what had to be implemented. 
+
+#### Starting the Game
+
+![First Options on Title Screen](assets/images/mainselection.png)
+
+This is the first choice the player has to make, they can either start the game right away if they are already familiar with it or go read the instructions first.
+
+#### Instructions
+
+![Instructions](assets/images/instructions.png)
+
+After the title screen, if the player selects the option to read the instructions this is what will come up on the terminal. A slightly themed way of explaining how to play the game. Here the player will have to hit the Enter key, which will take them back to the main menu where they can start their game.
 
 
 
