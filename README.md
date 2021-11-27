@@ -176,21 +176,20 @@ This is how the coded ASCII Art for the win message needs to look like in order 
     * By using Gitpod browser extension, it adds a button to GitHub.
 1. Through Gitpod you will push your commits straight to GitHub.
 
+### Deploying
 
-
-https://www.randomlists.com/random-words generated list of words 
-
-https://www.youtube.com/watch?v=5x6iAKdJB6U select random word from .txt
-
-https://www.youtube.com/watch?v=m4nEnsavl6w hangman tutorial
-
-adding title screen and more ascii art for styling
-
-https://texteditor.com/multiline-text-art/ ascii title 
-
-https://textkool.com/en ascii win/lose message
-
-https://stackoverflow.com/questions/287871/how-to-print-colored-text-to-the-terminal how to add color
-
-https://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html colors
-
+1. Push your code to GitHub.
+1. Log in or Sign up to Heroku where you need to create a new app.
+1. Select a unique name.
+1. In the settings tab reveal the config vars.
+1. For KEY, input PORT and for VALUE, input 8000 and click add.
+1. Below that, click add buildpack, select Python and save.
+1. Click add buildpack again, now select Nodejs  and save.
+1. Python should be above Nodejs on the buildpacks list.
+1. Go to deploy tab and for deployment method select GitHub and connect your GitHub account.
+1. When prompted enter the repository you want to deploy, search and once found connect it.
+1. Now you can either set it to automatically or manually deploy the appropriate branch.
+    * Automatically will deploy the app everytime you push something to GitHub.
+    * Manually you have control over when the app should be deployed, but you have to remember to do it.
+1. It might take a little while, but once the app is built Heroku will have a link to the live web page.
+       
