@@ -117,7 +117,19 @@ One of these messages will be displayed at the end of the game depending on the 
 
 Testing was done throughout the development of the game. With each addition or modification made, I was sure to test the output in the terminal available through Gitpod's environment. Many rounds of hangman have been played during the process.
 
-As can be seen in the flow chart I designed and in the warning messages exhibited in the [Features](#Wrong-Inputs).
+As can be seen in the [flow chart](#Skeleton) I designed and in the warning messages exhibited in the [Features](#Wrong-Inputs), I tried to make sure the game would be running in circles and never running into a dead end.
+
+During the writing process I kept an eye on the "Problems" tab in Gitpod and made changes to my code constantly to be sure it was clear.
+
+Since this project focused mostly on Python and not page layout and design, there was no need to run it through an HTML or CSS validator, however I did check the Python code in PEP8 which returned no faults.
+
+PEP8 results:
+
+![PEP8 Python Code No Errors](assets/images/pep8.png)
+
+
+
+
 
 https://www.randomlists.com/random-words generated list of words 
 
