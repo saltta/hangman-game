@@ -53,6 +53,13 @@ Here is the logic flow for Don't Hangme:
 
 ![Logic Flow](assets/images/hangman_flowchart.png)
 
+### Surface
+
+Considering that the objective of this project was to make a Python program to be run via terminal, no HTML or CSS (aside from the basic provided by the Code Institute template) was used. All of the graphic design is in-game in the form of ASCII Art, it is visible in the stylized way the title, win and fail messages are written as well as the gallows and the man.
+
+The hangman:
+
+![Hangman ASCII Art](assets/images/hangman.png)
 
 
 
