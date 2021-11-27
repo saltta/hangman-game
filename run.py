@@ -268,8 +268,8 @@ def win_graphic():
     """
     Displays a win graphic for when the player correctly guesses the word.
     """
-    print(Color.GREEN +
-          """
+    print(
+          f"""{Color.GREEN}
            ___       __   ___  ________
           |\\  \\     |\\  \\|\\  \\|\\   ___  \\
           \\ \\  \\    \\ \\  \\ \\  \\ \\  \\\\ \\  \\
@@ -277,7 +277,7 @@ def win_graphic():
             \\ \\  \\|\\__\\_\\  \\ \\  \\ \\  \\\\ \\  \\
              \\ \\____________\\ \\__\\ \\__\\\\ \\__\\
               \\|____________|\\|__|\\|__| \\|__|
-        """ + Color.RESET
+        {Color.RESET}""" 
           )
 
 
@@ -285,8 +285,8 @@ def lose_graphic():
     """
     Displays a lose graphic for when the player fails to guess the word.
     """
-    print(Color.RED +
-          """
+    print(
+          f"""{Color.RED}
            ________ ________  ___  ___
           |\\  _____\\\\   __  \\|\\  \\|\\  \\
           \\ \\  \\__/\\ \\  \\|\\  \\ \\  \\ \\  \\
@@ -294,7 +294,7 @@ def lose_graphic():
             \\ \\  \\_| \\ \\  \\ \\  \\ \\  \\ \\  \\____
              \\ \\__\\   \\ \\__\\ \\__\\ \\__\\ \\_______\\
               \\|__|    \\|__|\\|__|\\|__|\\|_______|
-        """ + Color.RESET
+        {Color.RESET}"""
           )
 
 
