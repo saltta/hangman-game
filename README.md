@@ -248,3 +248,4 @@ This is how the coded ASCII Art for the win message needs to look like in order 
 
 [Li Haoyi](https://www.lihaoyi.com/post/BuildyourownCommandLinewithANSIescapecodes.html) - Here I saw the codes for the colors I used.
 
+[Diagrams.net](https://app.diagrams.net/) - Website used to create and stylize my flow chart.
