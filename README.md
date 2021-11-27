@@ -161,9 +161,9 @@ This is how the coded ASCII Art for the win message needs to look like in order 
 * JavaScript
     * Code Institute Template
 * Python
-    * For the game code
+    * Used to create the game's code
 * Markdown
-    * For this Readme 
+    * Used to write this Readme 
 
 ### Developer Environment
 
@@ -171,6 +171,8 @@ This is how the coded ASCII Art for the win message needs to look like in order 
     * Code hosting platform for version control
 * Gitpod
     * Development platform
+* Heroku
+    * Cloud platform, deploys the app
 
 ### Library
  
