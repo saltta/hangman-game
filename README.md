@@ -43,6 +43,17 @@ The game is run via a mock terminal on a web page. It is constrained to that env
 
 The user only needs to give single character inputs followed by the Enter key.
 
+### Skeleton
+
+The intention was always to create a game where the player wouldn't have to leave the terminal environment to keep playing as many rounds as they want. They shouldn't have to even touch their mouse.
+
+In order to better visualize and plan the game cycle, I developed a flow chart to organize the functions and keep them in logical order. This way I could see where the game might run into a wall and programmed accordingly in order to keep it flowing.
+
+Here is the logic flow for Don't Hangme:
+
+![Logic Flow](assets/images/hangman_flowchart.png)
+
+
 
 
 
