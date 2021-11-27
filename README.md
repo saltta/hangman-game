@@ -25,6 +25,7 @@ The game can be found [**here**](https://dont-hangme.herokuapp.com/)
     * [Game Over Messages](#Game-Over-Messages)
 * [Testing](#Testing)
     * [Bugs](#Bugs)
+    * [Bugs To Fix](#Bugs-To-Fix)
 * [Technologies](#Technologies)
     * [Languages](#Languages)
     * [Developer Environment](#Developer-Environment)
@@ -177,6 +178,10 @@ The game was tested on Chrome, Firefox and Safari.
 This is how the coded ASCII Art for the win message needs to look like in order to come out correctly:
 
 ![ASCII Win Code](assets/images/wincode.png)
+
+### Bugs To Fix
+
+* Currently there aren't any bugs left to fix.
 
 ## Technologies
 
