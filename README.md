@@ -26,7 +26,16 @@ The game can be found <a href="https://dont-hangme.herokuapp.com/" target="_blan
 #### Site Objectives
 * Provide a game that runs smoothly
 * Provide quick yet challenging entertainment
-* Provide a easy to use and understand interface
+* Provide an easy to use interface
+
+### Scope
+
+Based on the objectives and user stories.
+
+#### Requirements
+* Engaging yet easy to understand instructions
+* Consistent playthrough, no need to reload page or game
+* New word every with every new start
 
 
 
