@@ -194,7 +194,7 @@ This is how the coded ASCII Art for the win message needs to look like in order 
 1. Push your code to GitHub.
 1. Log in or Sign up to Heroku where you need to create a new app.
 1. Select a unique name.
-1. In the settings tab reveal the config vars.
+1. In the settings tab reveal the config vars, for this project one had to be added as per Code Institute's guidance.
 1. For KEY, input PORT and for VALUE, input 8000 and click add.
 1. Below that, click add buildpack, select Python and save.
 1. Click add buildpack again, now select Nodejs  and save.
