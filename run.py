@@ -70,6 +70,12 @@ def instructions():
 def start_game(word):
     """
     Starts the game.
+    Hides the word and checks if the letter input is correct,
+    if not prompts user for correct input, then checks if it is in the word.
+    Iterates through hidden word and substitutes letters where appropriate.
+    Checks if the game is finished and displays the relative message.
+    Display stats like chances left, visual rep of chances left, which letters
+    have been used and the hidden word or correct letters.
     """
     secret_word = "_" * len(word)
     endgame = False
