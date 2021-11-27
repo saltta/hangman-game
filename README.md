@@ -23,7 +23,11 @@ The game can be found <a href="https://dont-hangme.herokuapp.com/" target="_blan
 * I want to see my progress
 * I want to be able to replay many times consecutively
 
-#### 
+#### Site Objectives
+* Provide a game that runs smoothly
+* Provide quick yet challenging entertainment
+* Provide a easy to use and understand interface
+
 
 
 
