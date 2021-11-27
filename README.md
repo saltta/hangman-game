@@ -6,6 +6,9 @@ Don't Hangme is based on the classic Hangman game. In this version, the program 
 
 The game can be found <a href="https://dont-hangme.herokuapp.com/" target="_blank">**here**.</a> 
 
+![Screenshot of Title Screen](assets/images/titlescreen.png)
+
+
 
 
 
