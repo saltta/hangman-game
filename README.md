@@ -78,7 +78,7 @@ Taking into consideration everything from the UX section of the project, I decid
 
 ![First Options on Title Screen](assets/images/mainselection.png)
 
-This is the first choice the player has to make, they can either start the game right away if they are already familiar with it or go read the instructions first.
+This is the first choice the player has to make, they can either start the game right away if they are already familiar with it or go read the instructions first. The blue makes the options stand out as to what character the user should type when making a decision.
 
 #### Instructions
 
@@ -100,7 +100,7 @@ As soon as the game is started the status becomes visible. The player can see ho
 
 ![Wrong Character Warning](assets/images/wrongchar.png)
 
-If the user inputs anything other than a single letter while playing the game, they will get a message explaining what they need to do and what they did wrong.
+If the user inputs anything other than a single letter while playing the game, they will get a message explaining what they need to do and what they did wrong. This message will sit at the top of the viewbox and colored yellow so the player can find it easily and still keep all of the their stats visible.
 
 #### Letters Tried
 
@@ -120,7 +120,9 @@ Every choice updates the status by at least adding a new letter to the used bank
 
 ![Lose Message](assets/images/lose.png)
 
-One of these messages will be displayed at the end of the game depending on the result. If the word is guessed correctly, the win message. If they run out of chances, the fail message. Along with the ASCII Art style banner, they will also get a message congratulating or consoling them as well as a prompt to try again, if chosen No, they will be taken back to the title screen.
+One of these messages will be displayed at the end of the game depending on the result. If the word is guessed correctly, the win message. If they run out of chances, the fail message. Along with the ASCII Art style banner, they will also get a message congratulating or consoling them as well as a prompt to try again, if chosen No, they will be taken back to the title screen. 
+
+The winning message will be displayed in green, and the losing message in red, both colors are usually associated with positive and negative things respectively. The large graphic and color make it clear right away that the game is over, win or lose.
 
 ## Testing
 
