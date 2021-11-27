@@ -113,7 +113,11 @@ Every choice updates the status by at least adding a new letter to the used bank
 
 One of these messages will be displayed at the end of the game depending on the result. If the word is guessed correctly, the win message. If they run out of chances, the fail message. Along with the ASCII Art style banner, they will also get a message congratulating or consoling them as well as a prompt to try again, if chosen No, they will be taken back to the title screen.
 
+## Testing
 
+Testing was done throughout the development of the game. With each addition or modification made, I was sure to test the output in the terminal available through Gitpod's environment. Many rounds of hangman have been played during the process.
+
+As can be seen in the flow chart I designed and in the warning messages exhibited in the [Features](#Wrong-Inputs).
 
 https://www.randomlists.com/random-words generated list of words 
 
