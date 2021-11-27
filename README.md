@@ -166,6 +166,15 @@ This is how the coded ASCII Art for the win message needs to look like in order 
 * Random
     * To randomly get a word from the words.txt file
 
+## Deployment
+
+### Developing
+
+1. Create a new repository on GitHub using Code Institute's Python Essentials Template.
+1. Open the repository you just created and from there you can:
+    * Create a workspace by prefixing any GitHub URL with gitpod.io/#, or
+    * By using Gitpod browser extension, it adds a button to GitHub.
+1. Through Gitpod you will push your commits straight to GitHub.
 
 
 
