@@ -155,7 +155,9 @@ The winning message will be displayed in green, and the losing message in red, b
 
 Testing was done throughout the development of the game. With each addition or modification made, I was sure to test the output in the terminal available through Gitpod's environment. Many rounds of hangman have been played during the process.
 
-As can be seen in the [flow chart](#Skeleton) I designed and in the warning messages exhibited in the [Features](#Wrong-Inputs), I tried to make sure the game would be running in circles and never running into a dead end.
+As it can be seen in the [flow chart](#Skeleton) I designed and in the warning messages exhibited in the [Features](#Wrong-Inputs), I tried to make sure the game would be running in circles and never reaching a dead end.
+
+Through the whole process of development, I tried to find ways to break the game. Attempted multiple sorts of wrong inputs in order to try and find any flaws or points of no return along the program. Every path leads back to a new input, and it doesn't remove the player from the game.
 
 During the writing process I kept an eye on the "Problems" tab in Gitpod and made changes to my code constantly to be sure it was clear.
 
