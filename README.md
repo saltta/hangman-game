@@ -19,9 +19,9 @@ The game can be found [**here**](https://dont-hangme.herokuapp.com/)
 * English students
 
 #### User Stories
-* I want to know how to play the game
-* I want to see my progress
-* I want to be able to replay many times consecutively
+* As a user I want to know how to play the game
+* As a user I want to see my progress
+* As a user I want to be able to replay many times consecutively
 
 #### Site Objectives
 * Provide a game that runs smoothly
@@ -56,6 +56,15 @@ Here is the logic flow for Don't Hangme:
 ### Surface
 
 Considering that the objective of this project was to make a Python program to be run via terminal, no HTML or CSS (aside from the basic provided by the Code Institute template) was used. All of the graphic design is in-game in the form of ASCII Art, it is visible in the stylized way the title, win and fail messages are written as well as the gallows and the man. In order to not have a dull looking game with nothing but lines of words and characters, a visual representation was necessary to make the experience more enjoyable.
+
+A little bit of color was added to the program in order to make the warnings, win/lose messages and some options stand apart from the rest of the monochromatic terminal, catching the player's attention. As a side benefit, it makes the game slightly more lively.
+
+The colors I chose were:
+*   Blue - To indicate the options to start or restart the game
+* Yellow - To warn the user that they have made a mistake
+* Red - To tell the user he has failed the objective, also as the man's head to give a sense of urgency
+* Green - To tell the user he has succeeded
+
 
 The hangman:
 
@@ -131,11 +140,11 @@ The game was tested on Chrome, Firefox and Safari.
 
 ### Bugs
 
-GitHub automatically removes the empty line at the end of the Python file. It is present in my Gitpod workspace but gets removed when pushed to the repository.
+* GitHub automatically removes the empty line at the end of the Python file. It is present in my Gitpod workspace but gets removed when pushed to the repository.
 
-Heroku deployment wouldn't work. I had removed the requirements.txt file because I didn't need to add anything to it, but even though it is empty, it is necessary in order to be deployed by Heroku.
+* Heroku deployment wouldn't work. I had removed the requirements.txt file because I didn't need to add anything to it, but even though it is empty, it is necessary in order to be deployed by Heroku.
 
-When doing the ASCII Art, sometimes it would be printed out misaligned. That was due to the use of backslashes to make the art.
+* When doing the ASCII Art, sometimes it would be printed out misaligned. That was due to the use of backslashes to make the art.
 
 This is how the coded ASCII Art for the win message needs to look like in order to come out correctly:
 
