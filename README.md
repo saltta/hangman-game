@@ -8,6 +8,32 @@ The game can be found [**here**](https://dont-hangme.herokuapp.com/)
 
 ![Screenshot of Title Screen](assets/images/titlescreen.png)
 
+## Table of Contents
+* [UX](#UX)
+    * [Strategy](#Strategy)
+    * [Scope](#Scope)
+    * [Structure](#Structure)
+    * [Skeleton](#Skeleton)
+    * [Surface](#Surface)
+* [Features](#Features)
+    * [Main Menu](#Main-Menu)
+    * [Instructions](#Instructions)
+    * [Game Started](#Game-Started)
+    * [Wrong Inputs](#Wrong-Inputs)
+    * [Letters Tried](#Letters-Tried)
+    * [Visual Representation Of Chances Taken](#Visual-Representation-Of-Chances-Taken)
+    * [Game Over Messages](#Game-Over-Messages)
+* [Testing](#Testing)
+    * [Bugs](#Bugs)
+* [Technologies](#Technologies)
+    * [Languages](#Languages)
+    * [Developer Environment](#Developer-Environment)
+    ' [Library](#Library)
+* [Deployment](#Deployment)
+    * [Developing](#Developing)
+    * [Deploying](#Deploying)
+* [Credits And References](#Credits-And-References)
+
 ## UX
 
 ### Strategy
