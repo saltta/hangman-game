@@ -154,7 +154,7 @@ This is how the coded ASCII Art for the win message needs to look like in order 
 * Markdown
     * For this Readme 
 
-### Develper Environment
+### Developer Environment
 
 * GitHub
     * Code hosting platform for version control
