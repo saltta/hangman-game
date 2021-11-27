@@ -83,6 +83,18 @@ After the title screen, if the player selects the option to read the instruction
 
 As soon as the game is started the status becomes visible. The player can see how many chances they have left, how many letters are in the word to be guessed and the empty gallows indicating 0 mistakes.
 
+#### Wrong Inputs
+
+![Wrong Letter Warning](assets/images/wrongletter.png)
+
+![Wrong Number of Characters Warning](assets/images/wrongcharnumber.png)
+
+![Wrong Character Warning](assets/images/wrongchar.png)
+
+If the user inputs anything other than a single letter while playing the game, they will get a message explaining what they need to do and what they did wrong.
+
+#### 
+
 
 
 
