@@ -133,12 +133,38 @@ The game was tested on Chrome, Firefox and Safari.
 
 GitHub automatically removes the empty line at the end of the Python file. It is present in my Gitpod workspace but gets removed when pushed to the repository.
 
+Heroku deployment wouldn't work. I had removed the requirements.txt file because I didn't need to add anything to it, but even though it is empty, it is necessary in order to be deployed by Heroku.
+
 When doing the ASCII Art, sometimes it would be printed out misaligned. That was due to the use of backslashes to make the art.
 
 This is how the coded ASCII Art for the win message needs to look like in order to come out correctly:
 
 ![ASCII Win Code](assets/images/wincode.png)
 
+## Technologies
+
+### Languages
+
+* HTML 
+    * Code Institute Template
+* JavaScript
+    * Code Institute Template
+* Python
+    * For the game code
+* Markdown
+    * For this Readme 
+
+### Develper Environment
+
+* GitHub
+    * Code hosting platform for version control
+* Gitpod
+    * Development platform
+
+### Library
+ 
+* Random
+    * To randomly get a word from the words.txt file
 
 
 
