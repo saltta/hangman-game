@@ -93,7 +93,11 @@ As soon as the game is started the status becomes visible. The player can see ho
 
 If the user inputs anything other than a single letter while playing the game, they will get a message explaining what they need to do and what they did wrong.
 
-#### 
+#### Letters Tried
+
+![Letters That Have Been Tried](assets/images/letterstried.png)
+
+In order to keep track of which letters have been tried, the used ones will be displayed to avoid reuse, the user won't lose any chances if they mistakenly try the same letter again and they will also get a message telling them that they have already used it.
 
 
 
