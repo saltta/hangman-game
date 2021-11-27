@@ -37,6 +37,13 @@ Based on the objectives and user stories.
 * Consistent playthrough, no need to reload page or game
 * New word every with every new start
 
+### Structure
+
+The game is run via a mock terminal on a web page. It is constrained to that environment and the only styling it gets is in the form of ASCII Art. It's deployed through Heroku which is connected to GitHub.
+
+The user only needs to give single character inputs followed by the Enter key.
+
+
 
 
 
