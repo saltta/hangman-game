@@ -79,6 +79,9 @@ After the title screen, if the player selects the option to read the instruction
 
 #### Game Started
 
+![Game Before First Guess](assets/images/gamestart.png)
+
+As soon as the game is started the status becomes visible. The player can see how many chances they have left, how many letters are in the word to be guessed and the empty gallows indicating 0 mistakes.
 
 
 
