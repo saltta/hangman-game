@@ -99,6 +99,12 @@ If the user inputs anything other than a single letter while playing the game, t
 
 In order to keep track of which letters have been tried, the used ones will be displayed to avoid reuse, the user won't lose any chances if they mistakenly try the same letter again and they will also get a message telling them that they have already used it.
 
+#### Visual Representation Of Chances Taken
+
+![Man Partially Hanged](assets/images/visualstatus.png)
+
+Every choice updates the status by at least adding a new letter to the used bank. When incorrect guesses are made the player also loses a chance which means the man is one step closer to being hanged. With every round an image showing how close he is to hanging will be displayed.
+
 #### Game Over Messages
 
 ![Win Message](assets/images/win.png)
