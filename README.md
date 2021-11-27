@@ -127,6 +127,8 @@ PEP8 results:
 
 ![PEP8 Python Code No Errors](assets/images/pep8.png)
 
+The game was tested on Chrome, Firefox and Safari.
+
 ### Bugs
 
 GitHub automatically removes the empty line at the end of the Python file. It is present in my Gitpod workspace but gets removed when pushed to the repository.
